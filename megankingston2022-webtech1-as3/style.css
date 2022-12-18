@@ -1,0 +1,173 @@
+/* header */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+/* font-family: 'Rubik Vinyl', cursive; */
+
+
+/* subheader */
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+/* font-family: 'Secular One', sans-serif; */
+
+/* body copy */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+/* defining fonts */
+
+html {
+    background-color: rgb(94, 103, 114);
+    background-image: url(black-road-texture-)
+}
+
+body {
+    margin: 0;
+    max-width: 100%;
+}
+
+h1 {
+    font-family: 'Rubik Vinyl', cursive;
+    color: white;
+    text-align: center;
+    font-size: 48pt;
+}
+
+h2 {
+    font-family: 'Secular One', sans-serif;
+    color: white;
+}
+
+h3 {
+    font-family: 'Secular One', sans-serif;
+    color: white;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+img {
+    box-shadow: 5px 10px rgb(244, 104, 104);
+}
+
+/* nav bar */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+  }
+  
+nav li a {
+    color: rgb(244, 104, 104);
+    padding: 50px;
+    text-decoration: none;
+  }
+
+  nav li a:hover {
+    color: red;
+  }
+
+nav a {
+    text-align: center;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+
+header {
+    position: relative;
+    bottom: 30px;
+}
+
+header h3 {
+    font-size: 12pt;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+
+/* section - home */
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+section img {
+    max-width: 100%;
+    align-self: center;
+}
+
+section p {
+    position: relative;
+    padding: 16px;
+    font-size: 20pt;
+    top: 27px;
+}
+
+/* list - home */
+
+.list {
+    text-align: center;
+}
+
+.list img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.list ul li {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* timeline */
+
+.timeline section {
+    display: flex;
+}
+
+.timeline ul li {
+    color: white;
+}
+
+.timeline img {
+    max-width: 50%;
+}
+
+.timeline-header {
+    text-align: center;
+}
+
+.timeline-header p {
+    position: relative;
+    bottom: 30px;
+}
+
+/* my experience */
+
+.my-experience-img {
+    display: flex;
+    width: 50%;
+    margin: 140px;
+}
+
+.my-experience-p {
+    text-align: center;
+}
+
+.my-experience-list {
+    text-align: center;
+}
